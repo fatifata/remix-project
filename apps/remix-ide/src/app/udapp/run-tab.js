@@ -106,9 +106,10 @@ export class RunTab extends ViewPlugin {
 
 
 
-    
 
-  
+
+ 
+  }
 
   writeFile (fileName, content) {
     return this.call('fileManager', 'writeFile', fileName, content)
